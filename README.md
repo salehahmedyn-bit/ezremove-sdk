@@ -1,22 +1,20 @@
-# Salah-Ahmedyn EzRemove SDK 🚀
+# EzRemove SDK
+Python SDK for background removal API.
 
-مكتبة بايثون متطورة وغير متزامنة (Asynchronous) لإزالة خلفية الصور باستخدام ذكاء EzRemove الاصطناعي.
-
-## 📥 التثبيت
-يمكنك تثبيت المكتبة مباشرة من GitHub:
+## Installation
 ```bash
-pip install git+[https://github.com/salehahmedyn-bit/ezremove-sdk.git](https://github.com/salehahmedyn-bit/ezremove-sdk.git)
+pip install git+https://github.com/salahahmedyn/ezremove_sdk.git
+```
 
-🛠️ مثال لاستخدام المكتبة
+## Usage
+```python
 import asyncio
 from ezremove import EzRemoveClient
 
 async def main():
-    client = EzRemoveClient()
-    # إزالة خلفية صورة واحدة
-    url = await client.remove_background("image.png")
-    print(f"الرابط: {url}")
+    client = EzRemoveClient(api_key="your_api_key")
+    result = await client.remove_background(b"image_bytes")
+    print(result.image_url)
 
-if __name__ == "__main__":
-    asyncio.run(main())
-
+asyncio.run(main())
+```

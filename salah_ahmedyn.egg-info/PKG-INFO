@@ -1,5 +1,0 @@
-Metadata-Version: 2.4
-Name: salah-ahmedyn
-Version: 0.1.0
-Requires-Dist: aiohttp>=3.8.0
-Dynamic: requires-dist
