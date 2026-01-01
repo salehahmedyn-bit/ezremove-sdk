@@ -1,0 +1,10 @@
+setup.py
+ezremove/__init__.py
+ezremove/client.py
+ezremove/exceptions.py
+ezremove/models.py
+salah_ahmedyn.egg-info/PKG-INFO
+salah_ahmedyn.egg-info/SOURCES.txt
+salah_ahmedyn.egg-info/dependency_links.txt
+salah_ahmedyn.egg-info/requires.txt
+salah_ahmedyn.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: salah-ahmedyn
+Version: 0.1.0
+Summary: Professional Async SDK for EzRemove API
+Author: Salah Ahmed
+Requires-Python: >=3.7
+Requires-Dist: aiohttp>=3.8.0
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
